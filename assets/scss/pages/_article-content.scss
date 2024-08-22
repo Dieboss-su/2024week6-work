@@ -1,0 +1,54 @@
+.article-content{
+    .mr-6{
+        margin-right: 6px;
+    }
+    .ml-6{
+        margin-left: 6px;
+    }
+    time{
+        margin-bottom: 28px;
+        @include md{
+            margin-bottom: 40px;
+        }
+    }
+    .tag {
+        a{
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: $primary-300;
+            color: $primary-400;
+            font-size: 12px;
+            margin-right: 10px;
+            &:hover{
+                background: $primary-400;
+                color:$primary-300;
+            }
+            @include md{
+                font-size: 16px;
+                margin-right: 16px;
+            }
+        }
+    }
+    .swiper-slide{
+        a{
+            color: $accent-200;
+        }
+        a:hover{
+            color:$accent-300;
+        }
+        h3:hover{
+            color: $accent-200;
+        }
+        img{
+            width: 100%;
+            @include lg{
+                max-width: 100%;
+            }
+        }
+    }
+    // .mySwiper{
+    //     @include lg{
+    //         grid-row: 3;
+    //     }
+    // }
+}

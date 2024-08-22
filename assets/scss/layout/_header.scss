@@ -1,4 +1,19 @@
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+  a{
+    transition:transform 0.5s ease;
+  }
+  a:hover{
+    transform: scale(1.2);
+  }
+  button{
+    transition:transform 0.5s ease;
+  }
+  button:hover{
+    transform: scale(1.2);
+  }
+  .container-fluid-index{
+    @include md{
+      border-bottom: 1px solid $neutral-300;
+    }
+  }
 }
