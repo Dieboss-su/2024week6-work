@@ -17,7 +17,7 @@
   <%- include('./layout/header',{page: "index" }); -%>
     <div class="index">
       <section class="banner">
-        <div class="container pt-lg-11 pb-lg-11 pt-md-10 pb-md-10">
+        <div class="container pt-lg-11 pb-lg-11 pt-md-10 pb-md-10 overflow-hidden">
           <div class="position-relative" data-aos="fade-right">
             <picture>
               <source media="(min-width:767px)" srcset="../assets/images/banner.png">
@@ -43,7 +43,7 @@
           <div class="row row-cols-1 row-cols-lg-4  row-cols-md-2 gy-2 gy-md-6">
             <div class="col " data-aos="flip-left">
               <div class="position-relative rounded-card">
-                <a href="#">
+                <a class="stretched-link" href="#">
                   <picture>
                     <source srcset="../assets/images/theme-1.png" media="(min-width:767px)">
                     <img class="w-100 " src="../assets/images/theme-1-sm.png" alt="城市漫遊者">
@@ -56,7 +56,7 @@
             </div>
             <div class="col " data-aos="flip-left">
               <div class="position-relative rounded-card">
-                <a href="#">
+                <a class="stretched-link" href="#">
                   <picture>
                     <source srcset="../assets/images/theme-3.png" media="(min-width:767px)">
                     <img class="w-100" src="../assets/images/theme-3-sm.png" alt="秘境尋蹤人">
@@ -68,7 +68,7 @@
             </div>
             <div class="col " data-aos="flip-left">
               <div class="position-relative rounded-card">
-                <a href="#">
+                <a class="stretched-link" href="#">
                   <picture>
                     <source srcset="../assets/images/theme-5.png" media="(min-width:767px)">
                     <img class="w-100" src="../assets/images/theme-5-sm.png" alt="品味設計家">
@@ -80,7 +80,7 @@
             </div>
             <div class="col " data-aos="flip-left">
               <div class="position-relative rounded-card">
-                <a href="#">
+                <a class="stretched-link" href="#">
                   <picture>
                     <source srcset="../assets/images/theme-8.png" media="(min-width:767px)">
                     <img class="w-100" src="../assets/images/theme-8-sm.png" alt="美食探險記">
@@ -92,7 +92,7 @@
             </div>
             <div class="col " data-aos="flip-left">
               <div class="position-relative rounded-card">
-                <a href="#">
+                <a class="stretched-link" href="#">
                   <picture>
                     <source srcset="../assets/images/theme-2.png" media="(min-width:767px)">
                     <img class="w-100" src="../assets/images/theme-2-sm.png" alt="美學建築誌">
@@ -104,7 +104,7 @@
             </div>
             <div class="col " data-aos="flip-left">
               <div class="position-relative rounded-card">
-                <a href="#">
+                <a class="stretched-link" href="#">
                   <picture>
                     <source srcset="../assets/images/theme-4.png" media="(min-width:767px)">
                     <img class="w-100" src="../assets/images/theme-4-sm.png" alt="慢活生活行">
@@ -116,7 +116,7 @@
             </div>
             <div class="col " data-aos="flip-left">
               <div class="position-relative rounded-card">
-                <a href="#">
+                <a class="stretched-link" href="#">
                   <picture>
                     <source srcset="../assets/images/theme-6.png" media="(min-width:767px)">
                     <img class="w-100" src="../assets/images/theme-6-sm.png" alt="工藝匠心賞">
@@ -128,7 +128,7 @@
             </div>
             <div class="col " data-aos="flip-left">
               <div class="position-relative rounded-card">
-                <a href="#">
+                <a class="stretched-link" href="#">
                   <picture>
                     <source srcset="../assets/images/theme-7.png" media="(min-width:767px)">
                     <img class="w-100" src="../assets/images/theme-7-sm.png" alt="時尚先鋒派">
@@ -255,7 +255,8 @@
         </div>
       </section>
       <section class="family " style="background: #FFFBE5;">
-        <div data-aos="zoom-in" class="container position-relative pt-9 pb-9 pt-md-10 pb-md-10 pt-lg-11 pb-lg-11 ">
+        <div data-aos="zoom-in"
+          class="container position-relative pt-9 pb-9 pt-md-10 pb-md-10 pt-lg-11 pb-lg-11 overflow-hidden">
           <h4 class="fs-md-4 h6 fw-bold fw-md-bolder mb-3 mb-md-5 text-center">\ 母親節強檔活動 / </h2>
             <h2 class="h5 fs-md-2 mb-6 mb-3 mb-md-5 text-center">家庭訂閱方案限時 7 折</h3>
               <ul class="list-unstyled d-grid gap-4 mb-6 mb-3 mb-md-8 ms-auto me-auto" style="width: 254px;">
@@ -508,7 +509,7 @@
         </div>
       </section>
       <section class="local" style="background: #FFFBE5;">
-        <div class="container pt-9 pb-9 pt-md-10 pb-md-10 pt-lg-11 pb-lg-11">
+        <div class="container pt-9 pb-9 pt-md-10 pb-md-10 pt-lg-11 pb-lg-11 overflow-hidden">
           <div class="row">
             <div class="col-md-6" data-aos="fade-right">
               <div class="text-align d-md-flex flex-md-column">
@@ -530,7 +531,9 @@
                         class="badge text-secondary-300 px-3 py-2 bg-success-0 border-secondary-100 border position-absolute">
                         <i class="bi bi-caret-right-fill me-2"></i>人氣行程
                       </div>
-                      <img class="w-100" src="../assets/images/projects-2.png" alt="親子露營" style="height: 290px;">
+                      <a class="stretched-link" href="#">
+                        <img class="w-100" src="../assets/images/projects-2.png" alt="親子露營" style="height: 290px;">
+                      </a>
                       <div class=" d-flex w-100 p-3 justify-content-between position-absolute position-word">
                         <h4 class="h6 fw-bold text-primary-100">親子露營要帶什麼</h4>
                         <i class="bi bi-arrow-right text-success-0 align-bottom fs-4"></i>
@@ -543,7 +546,9 @@
                         class="badge text-secondary-300 px-3 py-2 bg-success-0 border-secondary-100 border position-absolute">
                         <i class="bi bi-caret-right-fill me-2"></i>編輯推薦
                       </div>
-                      <img class="w-100" src="../assets/images/project-4.png" alt="房間改造" style="height: 290px;">
+                      <a class="stretched-link" href="#">
+                        <img class="w-100" src="../assets/images/project-4.png" alt="房間改造" style="height: 290px;">
+                      </a>
                       <div class="d-flex w-100 p-3 justify-content-between position-absolute position-word">
                         <h4 class="h6 fw-bold text-primary-100">質感房間改造攻略！</h4>
                         <i class="bi bi-arrow-right text-success-0 align-bottom fs-4"></i>
@@ -556,7 +561,9 @@
                         class="badge text-secondary-300 px-3 py-2 bg-success-0 border-secondary-100 border position-absolute">
                         <i class="bi bi-caret-right-fill me-2"></i>編輯推薦
                       </div>
-                      <img class="w-100" src="../assets/images/projects-1.png" alt="健行筆記" style="height: 290px;">
+                      <a class="stretched-link" href="#">
+                        <img class="w-100" src="../assets/images/projects-1.png" alt="健行筆記" style="height: 290px;">
+                      </a>
                       <div class="d-flex w-100 p-3 justify-content-between position-absolute position-word">
                         <h4 class="h6 fw-bold text-primary-100">山女孩的健行筆記</h4>
                         <i class="bi bi-arrow-right text-success-0 align-bottom fs-4"></i>
@@ -569,7 +576,9 @@
                         class="badge text-secondary-300 px-3 py-2 bg-success-0 border-secondary-100 border position-absolute">
                         <i class="bi bi-caret-right-fill me-2"></i>熱門文章
                       </div>
-                      <img class="w-100" src="../assets/images/projects-3.png" alt="海邊景點" style="height: 290px;">
+                      <a class="stretched-link" href="#">
+                        <img class="w-100" src="../assets/images/projects-3.png" alt="海邊景點" style="height: 290px;">
+                      </a>
                       <div class="d-flex w-100 p-3 justify-content-between position-absolute position-word">
                         <h4 class="h6 fw-bold text-primary-100">適合溜小孩的海邊景點推薦</h4>
                         <i class="bi bi-arrow-right text-success-0 align-bottom fs-4"></i>
@@ -580,64 +589,72 @@
               </div>
             </div>
             <div class="col-md-6 d-none d-md-flex">
-              <div class="pt-11 me-6 w-50" data-aos="fade-left">
+              <div class="pt-11 me-6 " data-aos="fade-left">
                 <div class="position-relative mb-8">
-                  <div class="boder-radius-hover">
-                    <div
-                      class="badge text-secondary-300 px-3 py-2 bg-success-0 border-secondary-100 border position-absolute"
-                      style="z-index: 2000;">
-                      <i class="bi bi-caret-right-fill me-2"></i>人氣行程
+                  <a href="#">
+                    <div class="boder-radius-hover">
+                      <div
+                        class="badge text-secondary-300 px-3 py-2 bg-success-0 border-secondary-100 border position-absolute"
+                        style="z-index: 2000;">
+                        <i class="bi bi-caret-right-fill me-2"></i>人氣行程
+                      </div>
+                      <img class="w-100 " src="../assets/images/projects-2.png" alt="親子露營" style="max-height: 232px;">
+                      <div style="z-index: 2000;"
+                        class="d-flex w-100 p-3 justify-content-between position-absolute position-word">
+                        <h4 class="h6 fw-bold text-primary-100">親子露營要帶什麼</h4>
+                        <i class="bi bi-arrow-right text-success-0 align-bottom fs-4"></i>
+                      </div>
                     </div>
-                    <img class="w-100 " src="../assets/images/projects-2.png" alt="親子露營" style="max-height: 232px;">
-                    <div style="z-index: 2000;"
-                      class="d-flex w-100 p-3 justify-content-between position-absolute position-word">
-                      <h4 class="h6 fw-bold text-primary-100">親子露營要帶什麼</h4>
-                      <i class="bi bi-arrow-right text-success-0 align-bottom fs-4"></i>
-                    </div>
-                  </div>
+                  </a>
                 </div>
                 <div class="position-relative">
-                  <div class="boder-radius-hover">
+                  <a href="#">
+                    <div class="boder-radius-hover">
+                      <div style="z-index: 2000;"
+                        class="badge text-secondary-300 px-3 py-2 bg-success-0 border-secondary-100 border position-absolute">
+                        <i class="bi bi-caret-right-fill me-2"></i>編輯推薦
+                      </div>
+                      <img class="w-100" src="../assets/images/project-4.png" alt="房間改造" style="max-height: 232px;">
+                      <div style="z-index: 2000;"
+                        class="d-flex w-100 p-3 justify-content-between position-absolute position-word">
+                        <h4 class="h6 fw-bold text-primary-100">質感房間改造攻略！</h4>
+                        <i class="bi bi-arrow-right text-success-0 align-bottom fs-4"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="pt-4 right-card " data-aos="fade-left">
+                <a href="#">
+
+                  <div class="position-relative gap boder-radius-hover">
                     <div style="z-index: 2000;"
                       class="badge text-secondary-300 px-3 py-2 bg-success-0 border-secondary-100 border position-absolute">
                       <i class="bi bi-caret-right-fill me-2"></i>編輯推薦
                     </div>
-                    <img class="w-100" src="../assets/images/project-4.png" alt="房間改造" style="max-height: 232px;">
+                    <img class="w-100" src="../assets/images/projects-1.png" alt="健行筆記" style="max-height: 232px;">
                     <div style="z-index: 2000;"
                       class="d-flex w-100 p-3 justify-content-between position-absolute position-word">
-                      <h4 class="h6 fw-bold text-primary-100">質感房間改造攻略！</h4>
+                      <h4 class="h6 fw-bold text-primary-100">山女孩的健行筆記</h4>
                       <i class="bi bi-arrow-right text-success-0 align-bottom fs-4"></i>
                     </div>
                   </div>
-                </div>
+                </a>
+                <a href="#">
+                  <div class="position-relative boder-radius-hover">
+                    <div style="z-index: 2000;"
+                      class="badge text-secondary-300 px-3 py-2 bg-success-0 border-secondary-100 border position-absolute">
+                      <i class="bi bi-caret-right-fill me-2"></i>熱門文章
+                    </div>
+                    <img class="w-100" src="../assets/images/projects-3.png" alt="海邊景點" style="max-height: 232px;">
+                    <div style="z-index: 2000;"
+                      class="d-flex w-100 p-3 justify-content-between position-absolute position-word">
+                      <h4 class="h6 fw-bold text-primary-100">適合溜小孩的海邊景點推薦</h4>
+                      <i class="bi bi-arrow-right text-success-0 align-bottom fs-4"></i>
+                    </div>
+                  </div>
+                </a>
               </div>
-              <div class="pt-4 right-card w-50" data-aos="fade-left">
-                <div class="position-relative gap boder-radius-hover">
-                  <div style="z-index: 2000;"
-                    class="badge text-secondary-300 px-3 py-2 bg-success-0 border-secondary-100 border position-absolute">
-                    <i class="bi bi-caret-right-fill me-2"></i>編輯推薦
-                  </div>
-                  <img class="w-100" src="../assets/images/projects-1.png" alt="健行筆記" style="max-height: 232px;">
-                  <div style="z-index: 2000;"
-                    class="d-flex w-100 p-3 justify-content-between position-absolute position-word">
-                    <h4 class="h6 fw-bold text-primary-100">山女孩的健行筆記</h4>
-                    <i class="bi bi-arrow-right text-success-0 align-bottom fs-4"></i>
-                  </div>
-                </div>
-                <div class="position-relative boder-radius-hover">
-                  <div style="z-index: 2000;"
-                    class="badge text-secondary-300 px-3 py-2 bg-success-0 border-secondary-100 border position-absolute">
-                    <i class="bi bi-caret-right-fill me-2"></i>熱門文章
-                  </div>
-                  <img class="w-100" src="../assets/images/projects-3.png" alt="海邊景點" style="max-height: 232px;">
-                  <div style="z-index: 2000;"
-                    class="d-flex w-100 p-3 justify-content-between position-absolute position-word">
-                    <h4 class="h6 fw-bold text-primary-100">適合溜小孩的海邊景點推薦</h4>
-                    <i class="bi bi-arrow-right text-success-0 align-bottom fs-4"></i>
-                  </div>
-                </div>
-              </div>
-
             </div>
           </div>
         </div>
